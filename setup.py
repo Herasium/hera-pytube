@@ -1,4 +1,4 @@
-a-#!/usr/bin/env python
+#!/usr/bin/env python
 """This module contains setup instructions for pytube."""
 import codecs
 import os
