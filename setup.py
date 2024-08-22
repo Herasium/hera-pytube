@@ -10,7 +10,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-with open(os.path.join(here, "pytube", "version.py")) as fp:
+with open(os.path.join(here, "heratube", "version.py")) as fp:
     exec(fp.read())
 
 setup(
