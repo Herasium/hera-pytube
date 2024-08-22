@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+a-#!/usr/bin/env python
 """This module contains setup instructions for pytube."""
 import codecs
 import os
@@ -14,7 +14,7 @@ with open(os.path.join(here, "pytube", "version.py")) as fp:
     exec(fp.read())
 
 setup(
-    name="pytube",
+    name="hera-pytube",
     version=__version__,  # noqa: F821
     author="Ronnie Ghose, Taylor Fox Dahlin, Nick Ficano",
     author_email="hey@pytube.io",
