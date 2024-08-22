@@ -18,13 +18,13 @@ setup(
     version=__version__,  # noqa: F821
     author="Ronnie Ghose, Taylor Fox Dahlin, Nick Ficano",
     author_email="hey@pytube.io",
-    packages=["pytube", "pytube.contrib"],
+    packages=["heratube", "heratube.contrib"],
     package_data={"": ["LICENSE"],},
     url="https://github.com/pytube/pytube",
     license="The Unlicense (Unlicense)",
     entry_points={
         "console_scripts": [
-            "pytube = pytube.cli:main"],},
+            "heratube = heratube.cli:main"],},
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Console",
